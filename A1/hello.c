@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(int argc, char **argv) {
-  printf("Hello, World!\n");
-
+  printf("Dev\n");
+  printf("patel.dev7@northeastern.edu\n");
   return 0;
 }
