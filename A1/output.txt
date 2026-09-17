@@ -1,37 +1,30 @@
-    1  ls
-    2  who am i
-    3  whoami
-    4  who
-    5  cd
-    6  ls
-    7  man
-    8  sort
-    9  ls
-   10  git clone https://github.com/dpatel4603/CS_3650
-   11  ls
-   12  cd CS_3650/A1
-   13  ls
-   14  pwd
-   15  whoami
-   16  ls
-   17  mkdir tempdir
-   18  ls
-   19  rmdir tempdir
-   20  ls
-   21  touch names.txt
-   22  ls
-   23  echo "Chalie" >> names.txt
-   24  cat names.txt
-   25  echo "Alice" >> names.txt
-   26  cat names.txt
-   27  sort names.txt
-   28  nl names.txt
-   29  cut names.txt
-   30  cut --help
-   31  grep "Alice" names.txt
-   32  cp names.txt names_copy.txt
-   33  ls
-   34  mv names_copy.txt backup.txt
-   35  ls
-   36  history
+$ pwd
+/home/dpatel4603/CS_3650/A1
 
+$ whoami
+dpatel4603
+
+$ ls
+hello.c output.txt editor.png repo.png
+
+$ mkdir testdir
+
+$ touch names.txt
+
+$ echo "Charlie" > names.txt
+
+$ cat names.txt
+Charlie
+
+$ cp names.txt names_copy.txt
+
+$ mv names_copy.txt renamed.txt
+
+$ nl names.txt
+     1  Charlie
+
+$ grep "Charlie" names.txt
+Charlie
+
+$ sort names.txt
+Charlie
